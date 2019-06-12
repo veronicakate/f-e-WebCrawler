@@ -6,6 +6,10 @@ function App() {
   return (
     <div className="App">
       <h1> Web Crawler hello</h1>
+      <form>
+        <input type='text' placeholder='URL' name='urlSearchbar' />
+        <input type='submit' name='submitButton' />
+      </form>
     </div>
   );
 }
