@@ -8,7 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1> Web Crawler hello</h1>
+        <h1>Team SNAMV Awesome Web Crawler</h1>
         <form onSubmit={e => this.hendleSubmit(e)}>
           <input
             type="text"
